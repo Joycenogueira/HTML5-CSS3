@@ -1,0 +1,93 @@
+@charset "UTF";
+ 
+body{
+    background-color: rgb(129, 240, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    background-image: linear-gradient(to bottom, rgb(38, 190, 114), rgba(0, 0, 0, 0.747));
+    padding : 20px 30px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+    box-shadow: rgb(17, 17, 17);
+  
+
+}
+
+    @font-face {
+        font-family: 'indroid';
+        src: url(fontes/idroid.otf) format('opentype');
+    } 
+
+    h1{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+    }
+       
+    
+header>p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:white;
+    
+}
+nav > a{
+    color: rgb(241, 241, 241);
+    text-align-last: left;
+    font-size: 16px;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    padding: 10px 5px;
+    margin: 1px 220px; 
+    box-shadow: inset white;
+}
+h2{
+    font-family: 'indroid';
+    color: rgb(3, 61, 3);
+}
+main>p{
+    font-family:Arial, Helvetica, sans-serif
+
+}
+strong{
+    color: rgb(21, 139, 21);
+}
+a{
+    color:rgb(21, 139, 21) ;
+}
+h3{
+    background-image: linear-gradient(to right, rgba(38, 66, 38, 0.24));
+    font-family: 'indroid';
+    color: rgb(3, 61, 3); ;
+}
+article{
+            background-color: rgb(99, 163, 104);
+            padding: 1px;
+            border-radius: 10px; 
+            margin: 1px;
+        }
+
+article > aside {
+            background-color: rgb(35, 87, 25);
+        border-radius: 0px 10px 0px 10px;
+    padding: 5px;
+}
+footer{
+    background-color: rgb(7, 44, 7);
+    color: rgb(116, 179, 116);
+    text-align: center;
+}
+footer>p{
+    color: white;
+}
+        
